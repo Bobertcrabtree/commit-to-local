@@ -1,0 +1,52 @@
+
+/*BELOW SWAPS HEADER IMAGE ON SMALL DEVICES*/
+
+.headerimagesm{
+   display: none;
+}
+
+@media only screen and (max-width: 620px){ .headerimagelg{
+     display: none;
+   }
+
+.headerimagesm{
+     display: block;
+   }
+}
+
+/*BELOW ADDS THE 501c3 STATEMENT ON SMALL DEVICES*/
+
+.non-profit {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {.non-profit {
+    display: inline;
+  }
+}
+
+/*BELOW REMOVES THE BRANDING FROM THE NAV BAR ON SMALL SCREENS*/
+
+@media only screen and (max-width: 575px) {.navbar-brand {
+    display: none;
+  }
+}
+
+/*BELOW ADJUST FONT SIZES FOR SMALL/MEDIUM SIZE DEVICES*/
+
+@media only screen and (max-width: 962px) {.copy {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 962px) {.mission-statement {
+    font-size: 1em;
+  }
+}
+
+/*BELOW REMOVE SLIDESHOW ON SMALL DEVICES*/
+
+@media only screen and (max-width: 576px) {.active, .ss, .slides {
+    display: none;
+  }
+}
